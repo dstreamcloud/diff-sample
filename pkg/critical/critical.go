@@ -3,4 +3,6 @@ package critical
 type Critical struct {
 }
 
-func (c *Critical) DoNothing() {}
+func (c *Critical) DoNothing() {
+	println("Maybe something")
+}
